@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BucketLIst">
         <activity
+            android:name=".toDoActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:label="Things to Do"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
