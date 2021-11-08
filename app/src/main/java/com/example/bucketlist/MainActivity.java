@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
         toGoCardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //Intent toGoActivity = new Intent(MainActivity.this, toGoActivity.class);
-                //startActivity(toGoActivity);
+                Intent toGoActivity = new Intent(MainActivity.this, toGoActivity.class);
+                startActivity(toGoActivity);
 
             }
         });
