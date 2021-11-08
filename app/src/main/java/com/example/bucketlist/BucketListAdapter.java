@@ -13,6 +13,7 @@ public class BucketListAdapter extends RecyclerView.Adapter<BucketListAdapter.Bu
 
     private BucketList[] array;
 
+    // Constructor
     public BucketListAdapter(BucketList[] array) {
         this.array = array;
     }

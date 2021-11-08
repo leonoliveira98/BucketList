@@ -34,6 +34,16 @@
             android:textSize="20sp"
             tools:text="Saltar de Avião" />
 
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_toEndOf="@+id/text_view_title"
+            android:layout_marginStart="12dp"
+            android:layout_centerVertical="true"
+            android:rating="3"            />
+
     </RelativeLayout>
 
 
